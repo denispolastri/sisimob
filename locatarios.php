@@ -21,7 +21,7 @@
         require_once('navbar.php');
       ?>
     </main>
-    <h1>SisImob</h1>
+    <h2>Locatários</h2>
 
 
     <!--JavaScript at end of body for optimized loading-->

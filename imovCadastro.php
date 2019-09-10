@@ -11,9 +11,6 @@
     <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <script>
-    $(".dropdown-trigger").dropdown();
-    </script>
   </head>
   <body>
     <main>
@@ -21,7 +18,7 @@
         require_once('navbar.php');
       ?>
     </main>
-    <h1>SisImob</h1>
+    <h3>Cadastro de Imóveis</h3>
 
 
     <!--JavaScript at end of body for optimized loading-->

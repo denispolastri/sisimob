@@ -12,7 +12,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script>
-    $(".dropdown-trigger").dropdown();
+
     </script>
   </head>
   <body>
@@ -20,10 +20,16 @@
       <?php
         require_once('navbar.php');
       ?>
+    <nav id="menu">
+      <ul>
+          <li><a href="imovCadastro.php">Cadastro</a></li>
+          <li><a href="imovListagem.php">Listagem</a></li>
+      </ul>
+    </nav>
+    <h2>Inquilinos</h2>
+
+
     </main>
-    <h1>SisImob</h1>
-
-
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
